@@ -17,7 +17,7 @@ type License struct {
 
 type Repository struct {
 	Id              int      `json:"id"`
-	NodeId          int      `json:"node_id"`
+	NodeId          string   `json:"node_id"`
 	Name            string   `json:"name"`
 	Owner           *Owner   `json:"owner"`
 	HtmlUrl         string   `json:"html_url"`
